@@ -7,9 +7,29 @@
 + ### 5. Получить по отдельности результаты каждого этапа компиляции.
 + ### 6. Написать отчёт в readme.md
 ## Описание проделанной работы:
-* ## 1. Регистрация на GitHub и создание репозитория.  
+* ### 1. Регистрация на GitHub и создание репозитория.  
      + регистрация.
-![Screenshot_20230921_121929](https://github.com/MbSmD/programming/assets/144994955/8db3b3d8-725c-4ea8-a00d-e97c8c258396)
+![Аккаунт на github](https://github.com/MbSmD/programming/assets/144994955/8db3b3d8-725c-4ea8-a00d-e97c8c258396)
      + Создание репозитория.
-![Screenshot_20230921_122329 png11](https://github.com/MbSmD/programming/assets/144994955/19041990-b0d3-4068-89e2-b95fb1352a29)
+![репозиторий](https://github.com/MbSmD/programming/assets/144994955/19041990-b0d3-4068-89e2-b95fb1352a29)
+* ### 2. Первая рабочая программа:
+     + Пишу код
+```C
+#include <stdio.h>
+
+int main()
+{
+    printf("helloworld\n");
+    return 0;
+}
+```
+* ### 3. Результаты компиляции полученные при вводе команды gcc -E hand.c >out.txt
+     + Самый низ результатов компиляции 
+![скриншот части результатов](https://github.com/MbSmD/programming/assets/144994955/734eb9e6-e516-4dbc-82fb-1fb4c62f6f2f)
+* ### 4. Отчёт
+     + пишу отчёт
+![пишу отчёт](https://github.com/MbSmD/programming/assets/144994955/627c3872-7dad-4542-a4ec-9c2cf3bd9bc7)
+## Ссылки на использоваемы материал:
++ ![Дока!](https://doka.guide/tools/markdown/)
+
 
