@@ -26,6 +26,8 @@ int main()
 * ### 3. Результаты компиляции полученные при вводе команды gcc -E hand.c >out.txt
      + Самый низ результатов компиляции 
 ![скриншот части результатов](https://github.com/MbSmD/programming/assets/144994955/734eb9e6-e516-4dbc-82fb-1fb4c62f6f2f)
+     + Ассемблер
+![скрин ассемблера](https://github.com/MbSmD/programming/assets/144994955/c1de7751-60ae-4079-934d-5561c1d10695)
 * ### 4. Отчёт
      + пишу отчёт
 ![пишу отчёт](https://github.com/MbSmD/programming/assets/144994955/627c3872-7dad-4542-a4ec-9c2cf3bd9bc7)
