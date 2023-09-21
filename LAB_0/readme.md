@@ -8,5 +8,8 @@
 + ### 6. Написать отчёт в readme.md
 ## Описание проделанной работы:
 * ## 1. Регистрация на GitHub и создание репозитория.
+     + регистрация
 ![Screenshot_20230921_121929](https://github.com/MbSmD/programming/assets/144994955/8db3b3d8-725c-4ea8-a00d-e97c8c258396)
+     + Создание репозитория
+![Screenshot_20230921_122329 png11](https://github.com/MbSmD/programming/assets/144994955/19041990-b0d3-4068-89e2-b95fb1352a29)
 
