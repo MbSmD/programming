@@ -1,0 +1,11 @@
+garden = ('ромашка', 'роза', 'одуванчик', 'ромашка', 'гладиолус', 'подсолнух', 'роза', )
+meadow = ('клевер', 'одуванчик', 'ромашка', 'клевер', 'мак', 'одуванчик', 'ромашка', )
+garden_set = set(garden)
+meadow_set = set(meadow)
+allflowers = garden + meadow
+allflowers_set = set(allflowers)
+print(allflowers_set,  "все  цветы")
+print(garden_set, "цветы растущие в саду")
+print(meadow_set, "цветы растущие на лугу")
+print(garden_set-meadow_set, "цветы растущие только в саду")
+print(meadow_set-garden_set, "цветы растущие только на лугу")
