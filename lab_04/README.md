@@ -3,16 +3,16 @@
 ## 00_distance
 ### Дан словарь с координатами городов. При помощи формулы - ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5, нужно посчитать растояние между городами.
 ### КОД:
-# ![код 1]([[<Screenshot (10).png>](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(10).png)])
+![код 1](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(10).png)
 ### РЕЗУЛЬТАТ:
-# ![результат 1](<Screenshot (11).png>)
+![результат 1](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(11).png)
 ## 01_circle
 ### Дан радиус круга: r= 42 и пи = 3.1415926.  Нужно найти пложнадь круга до точности в 4 знака после запятой. Точность мы указываем при помощи round().
 ### Так же даны 2 точки point_1 = (23, 34) и point_2 = (30, 30), надо определить, лежат они внутри круга или нет.
 ### КОД:
-![код 2](<Screenshot (12).png>)
+![код 2](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(12).png)
 ### РЕЗУЛЬТАТ:
-![результат 2](<Screenshot (13).png>)
+![результат 2](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(13).png)
 ## 02_operation
 ### Надо между числа '1 2 3 4 5' раставить знаки операций так, что бы получился ответ 25.
 ### КОД:
@@ -34,9 +34,9 @@
 ### При помощи данного списка заполняем список my_family_height = [] и добавляе рост каждому элементу списка
 ### Выводим на консоль рост отдельно рост отца, и общий рост всех членов семьи.
 ### КОД:
-![код 4](<Screenshot (14).png>)
+![код 4](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(14).png)
 ### РЕЗУЛЬТАТ:
-![результат 4](<Screenshot (15).png>)
+![результат 4](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(15).png)
 ## 05_zoo
 ### Дан список животных zoo = ['lion', 'kangaroo', 'elephant', 'monkey', ].
 ### Нужно посадить между 'lion' и 'kangaroo' 'bear', и вывести список.
@@ -44,9 +44,9 @@
 ### Убираем слона и снова выводим список в консоль.
 ### Выводим на консоль клетки, в который сидит 'lion' и 'lark'.
 ### КОД:
-![код 5](<Screenshot (16).png>)
+![код 5](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(16).png)
 ### РЕЗУЛЬТАТ:
-![результат 5](<Screenshot (17).png>)
+![результат 5](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(17).png)
 ## 06_song_list
 ### Дан список песен Depeche Mode со временем звучания с точностью до долей минут.
 ### Нужно вывести на консоль общее время звучания трех песен: 'Halo', 'Enjoy the Silence' и 'Clean'
@@ -54,9 +54,9 @@
 ### Так же дан словарь песен Depeche Mode, надо вывести общее время звучания трех песен:
 ### 'Sweetest Perfection', 'Policy of Truth' и 'Blue Dress' в формате:  А другие три песни звучат ХХХ минут.
 ### КОД:
-![код 6](<Screenshot (18).png>)
+![код 6](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(18).png)
 ### РЕЗУЛЬТАТ:
-![результат 6](<Screenshot (19)-2.png>)
+![результат 6](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(19).png)
 ## 07_secret
 ### Есть зашифрованное сообщение
 ### secret_message = [
@@ -74,9 +74,9 @@
 4. ###   четвертое слово - буквы с 8 по 13, включительно, в обратном порядке
 5. ###   пятое слово - буквы с 17 по 21, включительно, в обратном порядке
 ### КОД:
-![код 7](<Screenshot (20).png>)
+![код 7](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(20).png)
 ### РЕЗУЛЬТАТ:
-![результат 7](<Screenshot (21).png>)
+![результат 7](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(21).png)
 ## 08_garden
 ### Даны кортежи garden = ('ромашка', 'роза', 'одуванчик', 'ромашка', 'гладиолус', 'подсолнух', 'роза', )
 ### и meadow = ('клевер', 'одуванчик', 'ромашка', 'клевер', 'мак', 'одуванчик', 'ромашка', )
@@ -87,23 +87,23 @@
 4. #### выводим на консоль те, которые растут в саду, но не растут на лугу.
 5. #### выводим на консоль те, которые растут на лугу, но не растут в саду.
 ### КОД:
-![код 8](<Screenshot (22).png>)
+![код 8](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(22).png)
 ### РЕЗУЛЬТАТ:
-![результат 8](<Screenshot (23).png>)
+![результат 8](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(23).png)
 ## 09_shoping
 ### Дан словарь магазинов shops в который входят ашан, пятёрочка и магнит, а так же сладости.
 ### Надо создать словарь цен, состоящий из двух магазинов с минимальными ценами.
 ### КОД:
-![код 9](<Screenshot (24).png>)
+![код 9](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(24).png)
 ### РЕЗУЛЬТАТ
-![код 9](<Screenshot (25).png>)
+![код 9](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(25).png)
 ## 10_store
 ### Есть словарь кодов товаров - goods = {} и словарь списков количества товара на складе store = {}
 ### Рассчитать на какую сумму лежит каждого товара на складе
 ### КОД:
-![код 10.](<Screenshot (26).png>)
+![код 10.](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(26).png)https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(26).png
 ### РЕЗУЛЬТАТ:
-![результат 10.](<Screenshot (27).png>)
+![результат 10.](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(27).png)https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(27).png
 
 
 
