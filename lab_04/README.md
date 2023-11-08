@@ -3,9 +3,9 @@
 ## 00_distance
 ### Дан словарь с координатами городов. При помощи формулы - ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5, нужно посчитать растояние между городами.
 ### КОД:
-![код 1]([<Screenshot (10).png>](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(10).png))
+# ![код 1]([[<Screenshot (10).png>](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(10).png)])
 ### РЕЗУЛЬТАТ:
-![результат 1](<Screenshot (11).png>)
+# ![результат 1](<Screenshot (11).png>)
 ## 01_circle
 ### Дан радиус круга: r= 42 и пи = 3.1415926.  Нужно найти пложнадь круга до точности в 4 знака после запятой. Точность мы указываем при помощи round().
 ### Так же даны 2 точки point_1 = (23, 34) и point_2 = (30, 30), надо определить, лежат они внутри круга или нет.
