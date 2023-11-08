@@ -3,7 +3,7 @@
 ## 00_distance
 ### Дан словарь с координатами городов. При помощи формулы - ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5, нужно посчитать растояние между городами.
 ### КОД:
-![код 1](<Screenshot (10).png>)
+![код 1]([<Screenshot (10).png>](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(10).png))
 ### РЕЗУЛЬТАТ:
 ![результат 1](<Screenshot (11).png>)
 ## 01_circle
