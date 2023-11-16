@@ -10,5 +10,5 @@ b = secret_message[1][9:13]
 c = secret_message[2][5:15:2]
 d = secret_message[3][12:6:-1]
 e = secret_message[4][20:15:-1]
-secret = a + b + c + d + e
+secret = a + ' ' + b + ' ' + c + ' ' + d + ' ' + e
 print(secret)
