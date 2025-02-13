@@ -18,7 +18,7 @@ print(distance)
 ````
 
 ### РЕЗУЛЬТАТ:
-![Screenshot (11).png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(11).png)
+![00.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/00.png)
 ## 01_circle
 ### Дан радиус круга: r= 42 и пи = 3.1415926.  Нужно найти пложнадь круга до точности в 4 знака после запятой. Точность мы указываем при помощи round().
 ### Так же даны 2 точки point_1 = (23, 34) и point_2 = (30, 30), надо определить, лежат они внутри круга или нет.
@@ -42,7 +42,7 @@ else:
     print("Точка N не находится внутри круга")
 ```
 ### РЕЗУЛЬТАТ:
-![Screenshot (13).png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(13).png)
+![01.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/01.png)
 ## 02_operation
 ### Надо между числа '1 2 3 4 5' раставить знаки операций так, что бы получился ответ 25.
 ### КОД:
@@ -51,7 +51,7 @@ result = 1 * ((2 + 3) + (4 * 5))
 print(result)
 ```
 ### РЕЗУЛЬТАТ:
-![Screenshot (15).png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(15).png)
+![02.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/02.png)
 ## 03_favorite_movies
 ### Надо при помощи индексации стори вывести на консоль фильмы из списка:
 ### my_favorite_movies = 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее' 
@@ -61,8 +61,8 @@ print(result)
 a = 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'
 print(a[0:10],',', a[-15:-1],',', a[12:25],',', a[-22:-17])
 ```
-### РЕЗУЛЬТАТ###
-![Screenshot (17).png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(17).png)
+### РЕЗУЛЬТАТ:
+![03.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/03.png)
 ## 04_my_family
 ### Создаём список my_family_height = [] состоящий минимум из трёх элементов.
 ### При помощи данного списка заполняем список my_family_height = [] и добавляе рост каждому элементу списка
@@ -76,7 +76,7 @@ print("рост отца -" ,my_family_height[3],"cm")
 print(a, "- сумма ростов членов семьи")
 ```
 ### РЕЗУЛЬТАТ:
-![Screenshot (19).png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(19).png)
+![04.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/04.png)
 ## 05_zoo
 ### Дан список животных zoo = ['lion', 'kangaroo', 'elephant', 'monkey', ].
 ### Нужно посадить между 'lion' и 'kangaroo' 'bear', и вывести список.
@@ -96,7 +96,7 @@ print(zoo)
 print("лев в клетке", zoo.index('lion')+1, ",", "жаворонок в клетке",zoo.index('lark')+1)
 ```
 ### РЕЗУЛЬТАТ:
-![Screenshot (21).png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(21).png)
+![05.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/05.png)
 ## 06_song_list
 ### Дан список песен Depeche Mode со временем звучания с точностью до долей минут.
 ### Нужно вывести на консоль общее время звучания трех песен: 'Halo', 'Enjoy the Silence' и 'Clean'
@@ -142,7 +142,7 @@ time1 =round(time1,1)
 print("а другие три песни звучат", time1, "минут")
 ```
 ### РЕЗУЛЬТАТ:
-![Screenshot (23).png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(23).png)
+![06.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/06.png)
 ## 07_secret
 ### Есть зашифрованное сообщение
 ### secret_message = [
@@ -177,7 +177,7 @@ secret = a + ' ' + b + ' ' + c + ' ' + d + ' ' + e
 print(secret)
 ```
 ### РЕЗУЛЬТАТ:
-![Screenshot (25).png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(25).png)
+![07.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/07.png)
 ## 08_garden
 ### Даны кортежи garden = ('ромашка', 'роза', 'одуванчик', 'ромашка', 'гладиолус', 'подсолнух', 'роза', )
 ### и meadow = ('клевер', 'одуванчик', 'ромашка', 'клевер', 'мак', 'одуванчик', 'ромашка', )
@@ -202,7 +202,7 @@ print(garden_set-meadow_set, "цветы растущие только в сад
 print(meadow_set-garden_set, "цветы растущие только на лугу")
 ```
 ### РЕЗУЛЬТАТ:
-![Screenshot (27).png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(27).png)
+![08.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/08.png)
 ## 09_shoping
 ### Дан словарь магазинов shops в который входят ашан, пятёрочка и магнит, а так же сладости.
 ### Надо создать словарь цен, состоящий из двух магазинов с минимальными ценами.
@@ -254,11 +254,8 @@ print(sweets.setdefault('конфеты'))
 print(sweets.setdefault('карамель'))
 print(sweets.setdefault('пирожное'))
 ```
-### РЕЗУЛЬТАТ
-[{'shop': 'ашан', 'price': 10.99}, {'shop': 'пятерочка', 'price': 9.99}]
-[{'shop': 'пятерочка', 'price': 32.99}, {'shop': 'магнит', 'price': 30.99}]
-[{'shop': 'ашан', 'price': 45.99}, {'shop': 'магнит', 'price': 41.99}]
-[{'shop': 'пятерочка', 'price': 59.99}, {'shop': 'магнит', 'price': 62.99}]
+### РЕЗУЛЬТАТ:
+![09.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/09.png)
 ## 10_store
 ### Есть словарь кодов товаров - goods = {} и словарь списков количества товара на складе store = {}
 ### Рассчитать на какую сумму лежит каждого товара на складе
@@ -325,7 +322,7 @@ print('Стул -', chair_quantity, 'шт, стоимость', chair_cost, 'р�
 
 ```
 ### РЕЗУЛЬТАТ:
-![Screenshot (29).png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/Screenshot%20(29).png)
+![10.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/10.png)
 
 
 
