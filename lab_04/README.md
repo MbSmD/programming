@@ -325,4 +325,7 @@ print('Стул -', chair_quantity, 'шт, стоимость', chair_cost, 'р�
 ![10.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/10.png)
 
 
+## Шпаргалка по GIT
+
+
 
