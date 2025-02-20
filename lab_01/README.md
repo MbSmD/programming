@@ -18,7 +18,7 @@ print(distance)
 ````
 
 ### РЕЗУЛЬТАТ:
-![00.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/00.png)
+![00.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/000.png)
 ## 01_circle
 ### Дан радиус круга: r= 42 и пи = 3.1415926.  Нужно найти пложнадь круга до точности в 4 знака после запятой. Точность мы указываем при помощи round().
 ### Так же даны 2 точки point_1 = (23, 34) и point_2 = (30, 30), надо определить, лежат они внутри круга или нет.
