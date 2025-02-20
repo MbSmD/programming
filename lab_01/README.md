@@ -343,4 +343,7 @@ print('Стул -', chair_quantity, 'шт, стоимость', chair_cost, 'р�
 #### git restore - отмена изменений
 #### git push - отправка изменений в удалённый репозиторий
 
-
+## Список литературы
+#### Справка по markdown. URL: https://doka.guide/tools/markdown/.
+#### Оф. туториал по Python. URL: https://docs.python.org/3/tutorial/.
+#### команды GIT. URL: https://training.github.com/downloads/ru/github-git-cheat-sheet/.
