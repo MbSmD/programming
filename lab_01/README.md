@@ -9,16 +9,24 @@
     'London': (510, 510),
     'Paris': (480, 480),
 }
-distance = {
-    'Moscow=>London' : (((550 - 510) ** 2 + (370 - 510) ** 2) ** 0.5),
-    'London=>Paris' : (((510 - 480) ** 2 + (510 - 480) ** 2) ** 0.5),
-    'Paris=>Moscow' : (((480 - 550) ** 2 + (480 - 370) ** 2) ** 0.5),
-}
-print(distance)
+
+
+distances = {}
+
+
+for city1, cord1 in sites.items():
+    distances[city1] = {}  
+    for city2, cord2 in sites.items():
+        if city1 != city2:  
+            
+            distance = (((cord1[0] - cord2[0]) ** 2 + (cord1[1] - cord2[1]) ** 2) ** 0.5 )
+            distances[city1][city2] = distance  
+
+print(distances)
 ````
 
 ### РЕЗУЛЬТАТ:
-![00.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/000.png)
+![000.png](https://github.com/MbSmD/programming/blob/main/lab_04/screenshots/000.png)
 ## 01_circle
 ### Дан радиус круга: r= 42 и пи = 3.1415926.  Нужно найти пложнадь круга до точности в 4 знака после запятой. Точность мы указываем при помощи round().
 ### Так же даны 2 точки point_1 = (23, 34) и point_2 = (30, 30), надо определить, лежат они внутри круга или нет.
