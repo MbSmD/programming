@@ -3,7 +3,7 @@ from itertools import product
 # Задача 1
 letters = ['В', 'И', 'Ш', 'Н', 'Я']
 vowels = ['И', 'Я']
-valid_words_count = 0
+count = 0
 
 for word in product(letters, repeat=6):
     word_str = ''.join(word)
@@ -15,7 +15,7 @@ for word in product(letters, repeat=6):
         continue
     valid_words_count += 1
 
-print("Количество подходящих слов:", valid_words_count)
+print("Количество подходящих слов:", count)
 
 # Задача 2
 result = 4 * (2014 + 2 * 2015 - 8)
@@ -24,8 +24,8 @@ ones_count = binary_representation.count('1')
 print("Количество единиц в двоичной записи:", ones_count)
 
 # Задача 3
-lower_bound = 400_000_000
-upper_bound = 600_000_000
+lbound = 400_000_000
+ubound = 600_000_000
 valid_numbers = []
 
 for m in range(0, 30):
@@ -35,7 +35,7 @@ for m in range(0, 30):
         if n % 2 == 0:
             continue
         N = (2 ** m) * (3 ** n)
-        if lower_bound <= N <= upper_bound:
+        if lbound <= N <= ubound:
             valid_numbers.append(N)
 
 print("Найденные числа:", sorted(valid_numbers))
